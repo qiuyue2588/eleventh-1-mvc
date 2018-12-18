@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3F18580F21C4D88300571EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18580E21C4D88300571EFB /* AppDelegate.swift */; };
-		3F18581121C4D88300571EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18581021C4D88300571EFB /* ViewController.swift */; };
+		3F18581121C4D88300571EFB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18581021C4D88300571EFB /* FirstViewController.swift */; };
 		3F18581421C4D88300571EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F18581221C4D88300571EFB /* Main.storyboard */; };
-		3F18581721C4D88300571EFB /* eleventh_one.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F18581521C4D88300571EFB /* eleventh_one.xcdatamodeld */; };
+		3F18581721C4D88300571EFB /* eleventh(1).xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F18581521C4D88300571EFB /* eleventh(1).xcdatamodeld */; };
 		3F18581921C4D88400571EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F18581821C4D88400571EFB /* Assets.xcassets */; };
 		3F18581C21C4D88400571EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F18581A21C4D88400571EFB /* LaunchScreen.storyboard */; };
+		3F18582421C4D94100571EFB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18582321C4D94100571EFB /* SecondViewController.swift */; };
+		3F18582621C4D95800571EFB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18582521C4D95800571EFB /* ThirdViewController.swift */; };
+		3F18582821C4E7BA00571EFB /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18582721C4E7BA00571EFB /* student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F18580B21C4D88300571EFB /* eleventh-one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eleventh-one.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F18580B21C4D88300571EFB /* eleventh(1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eleventh(1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F18580E21C4D88300571EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F18581021C4D88300571EFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F18581021C4D88300571EFB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3F18581321C4D88300571EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F18581621C4D88300571EFB /* eleventh_one.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eleventh_one.xcdatamodel; sourceTree = "<group>"; };
 		3F18581821C4D88400571EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F18581B21C4D88400571EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F18581D21C4D88400571EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F18582321C4D94100571EFB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3F18582521C4D95800571EFB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3F18582721C4E7BA00571EFB /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +46,7 @@
 		3F18580221C4D88300571EFB = {
 			isa = PBXGroup;
 			children = (
-				3F18580D21C4D88300571EFB /* eleventh-one */,
+				3F18580D21C4D88300571EFB /* eleventh(1) */,
 				3F18580C21C4D88300571EFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +54,34 @@
 		3F18580C21C4D88300571EFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F18580B21C4D88300571EFB /* eleventh-one.app */,
+				3F18580B21C4D88300571EFB /* eleventh(1).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F18580D21C4D88300571EFB /* eleventh-one */ = {
+		3F18580D21C4D88300571EFB /* eleventh(1) */ = {
 			isa = PBXGroup;
 			children = (
+				3F18582721C4E7BA00571EFB /* student.swift */,
 				3F18580E21C4D88300571EFB /* AppDelegate.swift */,
-				3F18581021C4D88300571EFB /* ViewController.swift */,
+				3F18581021C4D88300571EFB /* FirstViewController.swift */,
 				3F18581221C4D88300571EFB /* Main.storyboard */,
+				3F18582321C4D94100571EFB /* SecondViewController.swift */,
+				3F18582521C4D95800571EFB /* ThirdViewController.swift */,
 				3F18581821C4D88400571EFB /* Assets.xcassets */,
 				3F18581A21C4D88400571EFB /* LaunchScreen.storyboard */,
 				3F18581D21C4D88400571EFB /* Info.plist */,
-				3F18581521C4D88300571EFB /* eleventh_one.xcdatamodeld */,
+				3F18581521C4D88300571EFB /* eleventh(1).xcdatamodeld */,
 			);
-			path = "eleventh-one";
+			path = "eleventh(1)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F18580A21C4D88300571EFB /* eleventh-one */ = {
+		3F18580A21C4D88300571EFB /* eleventh(1) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F18582021C4D88400571EFB /* Build configuration list for PBXNativeTarget "eleventh-one" */;
+			buildConfigurationList = 3F18582021C4D88400571EFB /* Build configuration list for PBXNativeTarget "eleventh(1)" */;
 			buildPhases = (
 				3F18580721C4D88300571EFB /* Sources */,
 				3F18580821C4D88300571EFB /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "eleventh-one";
+			name = "eleventh(1)";
 			productName = "eleventh-one";
-			productReference = 3F18580B21C4D88300571EFB /* eleventh-one.app */;
+			productReference = 3F18580B21C4D88300571EFB /* eleventh(1).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,14 +104,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "涂梦婷";
+				ORGANIZATIONNAME = qiuyue;
 				TargetAttributes = {
 					3F18580A21C4D88300571EFB = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 3F18580621C4D88300571EFB /* Build configuration list for PBXProject "eleventh-one" */;
+			buildConfigurationList = 3F18580621C4D88300571EFB /* Build configuration list for PBXProject "eleventh(1)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F18580A21C4D88300571EFB /* eleventh-one */,
+				3F18580A21C4D88300571EFB /* eleventh(1) */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F18581721C4D88300571EFB /* eleventh_one.xcdatamodeld in Sources */,
-				3F18581121C4D88300571EFB /* ViewController.swift in Sources */,
+				3F18582421C4D94100571EFB /* SecondViewController.swift in Sources */,
+				3F18581721C4D88300571EFB /* eleventh(1).xcdatamodeld in Sources */,
+				3F18582621C4D95800571EFB /* ThirdViewController.swift in Sources */,
+				3F18581121C4D88300571EFB /* FirstViewController.swift in Sources */,
 				3F18580F21C4D88300571EFB /* AppDelegate.swift in Sources */,
+				3F18582821C4E7BA00571EFB /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +304,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-016110333.eleventh-one";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.eleventh-1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +321,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-016110333.eleventh-one";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.eleventh-1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F18580621C4D88300571EFB /* Build configuration list for PBXProject "eleventh-one" */ = {
+		3F18580621C4D88300571EFB /* Build configuration list for PBXProject "eleventh(1)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F18581E21C4D88400571EFB /* Debug */,
@@ -328,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F18582021C4D88400571EFB /* Build configuration list for PBXNativeTarget "eleventh-one" */ = {
+		3F18582021C4D88400571EFB /* Build configuration list for PBXNativeTarget "eleventh(1)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F18582121C4D88400571EFB /* Debug */,
@@ -340,13 +352,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3F18581521C4D88300571EFB /* eleventh_one.xcdatamodeld */ = {
+		3F18581521C4D88300571EFB /* eleventh(1).xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				3F18581621C4D88300571EFB /* eleventh_one.xcdatamodel */,
 			);
 			currentVersion = 3F18581621C4D88300571EFB /* eleventh_one.xcdatamodel */;
-			path = eleventh_one.xcdatamodeld;
+			path = "eleventh(1).xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
